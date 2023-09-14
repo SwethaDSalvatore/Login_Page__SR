@@ -12,7 +12,8 @@ loginButton.addEventListener("click", function () {
         // Display a welcome message in the console
         console.log(alert("welcome, " + emailInput.value));
 
-    } else {
+    } 
+    else {
         // Show an error message or handle incorrect input as needed
         console.log("Incorrect email or password. Please try again.");
         console.log(alert("Please enter the correct value"));
