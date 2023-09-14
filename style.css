@@ -13,7 +13,7 @@ section {
     min-height: 100vh;
     width: 100%;
 
-    background: url('assets/razer_vault.jpg') no-repeat;
+    background: url('assets/background.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ input:valid~label {
     top: 20px;
 }
 
-.forget {
+/* .forget {
     margin: -15px 0 15px;
     font-size: .9em;
     color: #fff;
@@ -100,7 +100,7 @@ input:valid~label {
 
 .forget label a:hover {
     text-decoration: underline;
-}
+} */
 
 button {
     width: 100%;
@@ -114,7 +114,7 @@ button {
     font-weight: 600;
 }
 
-.register {
+/* .register {
     font-size: .9em;
     color: #fff;
     text-align: center;
@@ -129,7 +129,9 @@ button {
 
 .register p a:hover {
     text-decoration: underline;
-}
+} */
+
+
 
 @media screen and (max-width: 767px) {
     section {
