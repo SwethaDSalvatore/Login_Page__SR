@@ -7,7 +7,7 @@ const correctPassword = "password123";
 
 loginButton.addEventListener("click", function () {
 
-    // Check if the email and password are correct (you can replace this with your authentication logic)
+    // Check if the email and password are correct
     if (emailInput.value === correctEmail && passwordInput.value === correctPassword) {
         // Display a welcome message in the console
         console.log(alert("welcome, " + emailInput.value));
