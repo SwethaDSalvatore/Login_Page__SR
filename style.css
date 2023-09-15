@@ -90,26 +90,50 @@ button {
     font-size: 1em;
     font-weight: 600;
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 992px) {
     section {
         background: url('assets/mobile\ bg.png') no-repeat;
+        background-size: cover;
+        background-position: inherit;
+        min-height: 90vh;
     }
 
     .form-box {
-        width: 600px;
-        height: 650px;
+        width: 700px;
+        height: 950px;
     }
 
     .inputbox {
         position: relative;
-        margin: 45px 60px;
-        width: 360px;
+        margin: 95px 65px;
+        width: 350px;
         border-bottom: 3px solid #fff;
     }
 
     button {
-        height: 50px;
-        font-size: large;
+        height: 60px;
+        font-size: 1.5em;
         font-weight: bolder;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    .inputbox ion-icon {
+        right: 3px;
+        font-size: 2.2em;
+        top: 10px;
+    }
+
+    .inputbox input {
+        height: 70px;
+        font-size: 2em;
+    }
+
+    .inputbox label {
+        top: 50%;
+        left: 1px;
+        font-size: 2em;
     }
 }
